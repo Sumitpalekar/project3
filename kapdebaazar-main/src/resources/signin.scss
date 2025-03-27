@@ -1,0 +1,56 @@
+.signin{
+    display: flex;
+    justify-content: space-around;
+}
+.formheader{
+    font-weight: 400;
+}
+.subheader{
+    font-weight: 200;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    margin-bottom: 10px;
+    .item{
+        width: 100% !important;
+    }
+    .primary{
+        color: rgb(231, 231, 231);
+         font-size: 13px;
+         background-color: rgb(47, 47, 47);
+         width:150px;
+         height: 45px;
+         cursor: pointer;
+         border: none;
+    }    
+}
+.secondary{
+    color: rgb(231, 231, 231);
+    font-size: 13px;
+    background-color: rgb(8, 97, 213);
+    width:150px;
+    height: 45px;
+    border:none;
+    cursor: pointer;
+}
+.signbox{
+     width:25vw;
+}
+.input{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px !important;
+}
+.spinner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+  }
+  
+  .ant-spin-dot-item{
+    background-color: gray !important;
+  }
